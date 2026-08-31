@@ -29,6 +29,7 @@ export class UserRepository {
    * Creates a user.
    */
   async create(data: {
+    name: string,
     email: string;
     passwordHash: string;
     role: "ADMIN" | "GESTOR";

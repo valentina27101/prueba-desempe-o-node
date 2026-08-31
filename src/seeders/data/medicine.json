@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Acetaminophen",
+    "description": "Medicine for pain and fever",
+    "stock": 100,
+    "minimumStock": 20,
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Ibuprofen",
+    "description": "Anti-inflammatory medicine",
+    "stock": 80,
+    "minimumStock": 15,
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Amoxicillin",
+    "description": "Antibiotic medicine",
+    "stock": 50,
+    "minimumStock": 10,
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Omeprazole",
+    "description": "Medicine for gastric problems",
+    "stock": 70,
+    "minimumStock": 15,
+    "status": "ACTIVE"
+  }
+]
+
