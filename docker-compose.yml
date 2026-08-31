@@ -19,7 +19,7 @@ services:
 
   app:
     build: .
-    container_name: technical-test-backend
+    container_name: RiwiMediCare
     restart: unless-stopped
     env_file:
       - .env

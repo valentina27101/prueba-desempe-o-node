@@ -5,6 +5,7 @@ import * as Joi from "joi";
  */
 
 export const registerUserSchema = Joi.object({
+  name: Joi.string().trim().required(),
   email: Joi.string().trim().email().required(),
   password: Joi.string().min(8).max(100).required(),
   role: Joi.string().valid("ADMIN", "GESTOR").required(),
